@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <ctype.h>
+#include <stdbool.h>
+
 
 int main(void){
     char jogarAgain='Y';
     const unsigned int delay=1;
-    
+    bool correct = true;
     //
 
     printf("To play a Simple Simon\n");
@@ -16,6 +18,7 @@ int main(void){
     scanf(" %c", &jogarAgain);
 
     do{
+        correct = true;
         printf("do u wanna play again(y/n)?");
         scanf("%c", &jogarAgain);
     }while(toupper(jogarAgain)=="Y");
