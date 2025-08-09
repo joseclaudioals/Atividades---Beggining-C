@@ -19,6 +19,6 @@ int main(void){
         printf("do u wanna play again(y/n)?");
         scanf("%c", &jogarAgain);
     }while(toupper(jogarAgain)=="Y");
-    
+
     return 0;
 }
