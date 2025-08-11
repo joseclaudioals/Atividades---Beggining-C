@@ -12,7 +12,7 @@ int main(void){
         soma+=notas[i];
     }
     media = (float)soma/10;
-
+    //
     for(int i=0; i<10; i++)
         printf("%ia nota = %i\n", i, notas[i]);    
 
